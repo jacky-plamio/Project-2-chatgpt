@@ -1,35 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shop Website</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>kohi supply co.</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-  <header>
-    <div class="logo">
-      <img src="assets/images/Asset%201-100.jpg" alt="Logo">
+    <header>
+        
+        <nav>
+            <img src="assets/images/Asset%201-100.jpg" alt="Coffee Supplier Company Logo">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-video">
+    <video src="assets/images/pexels-cottonbro-studio-4820352-4096x2160-25fps.mp4" autoplay muted loop></video>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <video autoplay loop muted>
-      <source src="assets/images/pexels-cottonbro-studio-4820352-4096x2160-25fps.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <!-- Rest of your shop content goes here -->
-  </main>
-</body>
-       <footer>
-    <!-- footer content here ? -->
+   
+    <section id="hero">
+        <h1>Welcome to Kohi Supply Co.</h1>
+        <p>Delivering the Finest Coffee Since 1990</p>
+    </section>
+
+
+
+<section id="about">
+        <h2>About Us</h2>
+        <p>At Kohi, our story began with a passion for exceptional coffee. It all started when our founders Jay and Kate embarked on a journey to explore the world of coffee, immersing themselves in different cultures and coffee-growing regions. Inspired by the richness and diversity of flavors, we envisioned a company that would bring these exquisite coffees directly to enthusiasts and connoisseurs. With a commitment to quality and sustainability, Kohi works closely with farmers who share our values, ensuring fair trade practices and responsible sourcing. From hand-picked beans to expert roasting, we take pride in delivering a delightful and unforgettable coffee experience. </p>
+</section>
+    
+    <section id="banner">
+  <h2>The finest coffee from around the globe, crafted with passion and dedication</h2>
+</section>
+
+
+<section id="journey">
+    <div class="product">
+      <img src="assets/images/pexels-cottonbro-studio-4820776.jpg" alt="Product 1">
+      <h3>Roasting</h3>
+      <p>Green coffee beans are roasted to bring out their unique flavors, aromas, and characteristics. Roasting is a skillful process that involves carefully applying heat to transform the beans from green to various degrees of roast, such as light, medium, or dark.</p>
+    </div>
+   
+    <div class="product">
+      <img src="assets/images/pexels-cottonbro-studio-4820772.jpg" alt="Product 2">
+      <h3>Grinding</h3>
+      <p> Roasted coffee beans are ground into smaller particles to increase the surface area, allowing for better extraction of flavors during brewing. The grind size varies depending on the brewing method, such as coarse for French press or fine for espresso.</p>
+    </div>
+    
+     <div class="product">
+      <img src="assets/images/pexels-cottonbro-studio-4820838.jpg" alt="Product 2">
+      <h3>Packaging</h3>
+      <p>The final stage is brewing, where the coffee grounds are combined with hot water to extract the desired flavors and create the aromatic beverage. Different brewing methods, such as drip brewing, espresso machines, or manual pour-over, offer distinct taste experiences.</p>
+    </div>
+</section>
+    
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+         <button type="submit">Send Message</button>
+    </form>
+</section>
+
+
+        
+        
+<footer>
+        <p>&copy; 2023 Coffee Supplier Company. All rights reserved.</p>
     </footer>
+</body>
 
 </html>

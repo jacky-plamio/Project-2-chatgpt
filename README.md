@@ -3,7 +3,7 @@ Outside the grid - chatgptprompts
 
 Approaching this assignment, the first step was choosing a topic of choice. Although the assignment mentioned that the content wasn't really the important aspect, I wanted to choose something that I would continue to develop after the assessment as it is an area of interest. I chose to create a website for a fictional coffee supplier company named Kohi Supply Co..Although technically a type of shop website, my aim for this was to highlight the company and their story within the homepage. When doing some research, I noticed how many coffee supplier companies and their websites had a lot of content just on the first page of contact that included their stories or about them, their products, history, etc. They had multiple sections within the homepage and so I took inspo from that and moved slightly away from my original idea of just creating something minimal with a hero image and call for action approach in the center. Here are a few inspo site layouts. 
 
-  ![inspo-screenshot](/assets/images/Screenshot 2023-05-06 184701.jpg)
+  ![inspo-screenshot](https://github.com/jacky-plamio/Project-2-chatgpt/blob/main/assets/images/Screenshot%202023-05-06%20184701.jpg)
   
 ### Using ChatGPT
 
